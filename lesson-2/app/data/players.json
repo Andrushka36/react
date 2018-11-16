@@ -1,0 +1,13 @@
+[{
+	"name": "Steven Gerrard",
+	"team": "Liverpool",
+	"image": "/images/gerrard.jpg"
+}, {
+	"name": "David Beckham",
+	"team": "Manchester&nbsp;United Real&nbsp;Madrid",
+	"image": "/images/beckham.jpg"
+}, {
+	"name": "Frank Lampard",
+	"team": "Chelsea",
+	"image": "/images/lampard.jpg"
+}]
