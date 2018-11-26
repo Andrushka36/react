@@ -57,7 +57,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: "Homework № 4"
+            title: "Homework № 5"
         }),
 		new MiniCssExtractPlugin({
             filename: "style.css"
