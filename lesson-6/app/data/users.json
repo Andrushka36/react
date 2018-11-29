@@ -1,0 +1,11 @@
+[{
+	"id": 2,
+    "name": "John",
+    "articles": [2, 3, 4, 6, 7, 8, 10],
+    "comments": [2]
+}, {
+    "id": 1,
+    "name": "Steven",
+    "articles": [1, 5, 9],
+    "comments": [1]
+}]
