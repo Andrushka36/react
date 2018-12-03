@@ -1,0 +1,47 @@
+%inputStyles
+  display: block
+  border: 1px solid #ced4da
+  border-radius: 5px
+  padding: 7px 15px
+
+.comments
+
+  &__title
+    margin-bottom: 15px
+    font-size: 20px
+
+  .add-comments
+    margin-bottom: 30px
+
+    &__title
+      margin-bottom: 10px
+
+    &__input, &__textarea
+      width: 350px
+      margin-bottom: 10px
+      @extend %inputStyles
+
+    &__textarea
+      height: 50px
+
+    &__submit
+      color: #ffffff
+      background-color: #007bff
+      cursor: pointer
+      @extend %inputStyles
+
+      &:hover
+        background-color: #0069d9
+
+.comment
+
+  &:not(:last-child)
+    margin-bottom: 10px
+
+  &__show-article
+    font-weight: 500
+    color: #0085a1
+    cursor: pointer
+
+    &:hover
+      color: #00657b

@@ -1,0 +1,68 @@
+@keyframes opacity
+  0%
+    opacity: 0
+  75%
+    opacity: 1
+  100%
+    opacity: 1
+
+.popup
+  position: fixed
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  display: flex
+  justify-content: center
+  align-items: center
+  padding: 0 50px
+  background: rgba(0, 0, 0, 0.75)
+
+  &__full-article
+    margin-bottom: 10px
+    padding-bottom: 10px
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+
+  &__inner
+    margin-top: 50px
+    max-width: 960px
+    padding: 50px
+    background-color: #fff
+    position: relative
+
+  &__title
+    font:
+      size: 36px
+      weight: 600
+    margin-bottom: 10px
+
+  &__author
+    font:
+      size: 20px
+      weight: 400
+    margin-bottom: 10px
+    padding-bottom: 10px
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+
+  &__address
+    font-style: normal
+    margin-bottom: 10px
+    padding-bottom: 10px
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+
+  &__preview
+    font-size: 18px
+
+  &__detail-text
+    margin-bottom: 10px
+
+  &__close
+    font-weight: 600
+    cursor: pointer
+    position: absolute
+    top: 20px
+    right: 20px
+
+    &:hover
+      color: #0085a1
+
